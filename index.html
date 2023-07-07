@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8" lang="en">
+        <link rel="icon" href="data:,">
+        <link rel="stylesheet" href="css/style.css">
+        <title>GitRepos</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="main">
+                <h1 class="main__title">GitHub repository search</h1>
+                <form class="search-form">
+                    <input type="text" class="search-form__input" placeholder="Start input text...">
+                    <ul class="autocomplete__list"></ul>
+                </form>
+            </div>
+            <section class="repository repository__github-container">
+                <h2 class="repository__title">List of added repositories</h2>
+                <ul class="repository__list"></ul>
+                <div class="repository__info-message">Repositories have not been added :с</div>
+            </section>
+        </div>
+        <script src="js/bisnessLogic.js"></script>
+        <script src="js/eventListeners.js"></script>
+    </body>
+</html>
