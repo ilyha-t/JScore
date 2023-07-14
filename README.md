@@ -12,10 +12,10 @@ Settings params:
 REST API
 -----------------------------------
 Registration user Ilyha Nefedev (method POST):
-![](../../Pictures/Screenshots/Screenshot from 2023-07-14 17-35-43.png)
+![](screens/reg.png)
 
 Authorization user (method POST):
-![](../../Pictures/Screenshots/Screenshot from 2023-07-14 17-38-46.png)
+![](screens/auth.png)
 
 Get current user (method GET):
-![](../../Pictures/Screenshots/Screenshot from 2023-07-14 17-56-19.png)
+![](screens/getCurrent.png)
